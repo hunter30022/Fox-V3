@@ -28,7 +28,7 @@ class LoveCalculator(Cog):
                 try:
                     description = soup_object.find('div', attrs={'class': 'result score'}).get_text().strip()
                 except:
-                    description = 'Dr. Love is busy right now'
+                    description = 'Dr. Love is busy right now.'
 
         try:
             z = description[:2]
